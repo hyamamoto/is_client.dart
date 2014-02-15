@@ -8,11 +8,13 @@ also check if the client is running on a Dart browser
 The dead code blocks isolated by the use of is_client utility
 can be subjected to the dead code elimination by "dart2js".
 
+[![Build Status](https://drone.io/github.com/hyamamoto/is_client.dart/status.png)](https://drone.io/github.com/hyamamoto/is_client.dart/latest)
+
 * [DartDoc](http://htmlpreview.github.com/?http://github.com/hyamamoto/is_client.dart/blob/master/doc/index.html)
 
 ### Example Usage
 
-<pre>
+```
 // Sample Code: Check if the code is running on client-side or server-side.
 
 import "package:is_client:is_client.dart"
@@ -22,9 +24,9 @@ if (isClient) {
 } else {
   print("Hello! I'm running on server-side!");
 }
-</pre>
+```
 
-<pre>
+```
 // Sample Code: Check if the code is running as JavaScript or not.
 
 import "package:is_client:is_dartium.dart"
@@ -34,7 +36,7 @@ if (isDartClient) {
 } else {
   print("Hello! I'm a JavaScript on Chrome or else!");
 }
-</pre>
+```
 
 
 ### Compile-time dead code elimination
@@ -48,11 +50,11 @@ To compile out the dead code, you must pass the IS_CLIENT
 constant variable to "dart2js" via the -D command line
 arguments.
 
-<pre>
+```
 dart2js -DIS_CLIENT=true myapp.dart
-</pre>
+```
 
-<pre>
+```
 // Code sample
 import "package:is_client:is_client.dart"
 ...
@@ -61,7 +63,7 @@ if (isServer) {
 } else {
   print("Hello! I'm alive!");
 }
-</pre>
+```
 
 ### License
 
