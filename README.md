@@ -8,7 +8,7 @@ also check if the client is running on a Dart browser
 The dead code blocks isolated by the use of is_client utility
 can be subjected to the dead code elimination by "dart2js".
 
-* [DartDoc](http://htmlpreview.github.com/?http://github.com/hyamamoto/is_client.dar://github.com/hyamamoto/is_client.dart/blob/master/doc/index.html)
+* [DartDoc](http://htmlpreview.github.com/?http://github.com/hyamamoto/is_client.dart/blob/master/doc/index.html)
 
 ### Example Usage
 
