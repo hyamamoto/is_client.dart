@@ -1,0 +1,17 @@
+name: is_client
+version: 1.1.0
+author: Hiroshi Yamamoto <higon@freepress.jp>
+homepage: http://github.com/hyamamoto/is_client.dart
+documentation: http://github.com/hyamamoto/is_client.dart/README.md
+description: >
+  Gives simple ways to check if the application is running on
+  server-side or client-side, also check if the client is running
+  on a Dart browser (Dartium) or other JS browsers (like Chrome/Firefox).
+  
+  The dead code blocks isolated by the use of is_client utility
+  can be subjected to the dead code elimination by "dart2js".
+dependencies:
+  browser: any
+dev_dependencies:
+  unittest: ">= 0.6.0"
+  
