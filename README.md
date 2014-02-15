@@ -11,6 +11,8 @@ can be subjected to the dead code elimination by "dart2js".
 
 ### Example Usage
 
+* [DartDoc](http://htmlpreview.github.com/?http://github.com/hyamamoto/is_client.dart/doc/index.html)
+
 <pre>
 // Sample Code: Check if the code is running on client-side or server-side.
 
@@ -38,7 +40,7 @@ if (isDartClient) {
 
 ### Compile-time dead code elimination
 
-By default, the values from is_client package are generated
+By default, values from is_client package are generated
 runtime. They are not treated as the compile-time constants.
 Meaning, the code block isolated by if statements WILL NOT be
 subjected to the dead code elination feature of "dart2js".

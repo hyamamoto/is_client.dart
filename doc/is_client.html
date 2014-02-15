@@ -1,0 +1,74 @@
+        <!DOCTYPE html>
+        <html>
+        <head>
+                <meta charset="utf-8">
+        <title>is_client Library / Dart Documentation</title>
+        <link rel="stylesheet" type="text/css"
+            href="styles.css">
+        <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" href="favicon.ico">
+        
+        </head>
+        <body data-library="is_client">
+        <div class="page">
+        <div class="header">
+          <a href="index.html"><div class="logo"></div></a>
+          <a href="index.html">Dart Documentation</a>
+         &rsaquo; <a href="is_client.html">is_client</a>        <div id="search-box">
+          <input type="search" name="q" id="q" autocomplete="off"
+              class="search-input" placeholder="Search API">
+        </div>
+        
+      </div>
+      <div class="drop-down" id="drop-down"></div>
+      
+        <div class="nav">
+        
+</div>
+<div class="content">
+<h2><strong>is_client</strong> library</h2>
+<div class="doc"><p>Properties to check if the application is running on server-side or client-side.</p></div>
+<div>
+<h3>Properties</h3>
+<div class="field"><h4 id="isClient">
+<button class="show-code">Code</button>
+final bool         <strong>isClient</strong> <a class="anchor-link"
+            href="#isClient"
+            title="Permalink to isClient">#</a>
+        </h4>
+        <div class="doc">
+<p>Returns true when running inside the normal browser environment, 
+either as development or production code. Returns false 
+if this code is running in a plain Dart VM. This might happen when 
+running shared code on the server, or during the console unit-testing.</p>
+<pre class="source">
+bool get isClient =&gt; _D_IS_CLIENT ? true: _isClient();
+</pre>
+</div>
+</div>
+<div class="field"><h4 id="isServer">
+<button class="show-code">Code</button>
+final bool         <strong>isServer</strong> <a class="anchor-link"
+            href="#isServer"
+            title="Permalink to isServer">#</a>
+        </h4>
+        <div class="doc">
+<p>Returns true when running a plain Dart VM. This might happen when 
+running shared code on the server, or during the console unit-testing.
+Returns false if this code is running inside the normal browser 
+environment, either as development or production code. </p>
+<pre class="source">
+bool get isServer =&gt; _D_IS_CLIENT ? false: _isServer();
+</pre>
+</div>
+</div>
+</div>
+        </div>
+        <div class="clear"></div>
+        </div>
+        <div class="footer">
+          <div>This page was generated at 2014-02-16 00:08:43.021</div>
+        </div>
+        <script async src="client-live-nav.js"></script>
+        </body></html>
+        

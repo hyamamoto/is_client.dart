@@ -1,3 +1,5 @@
+/// Properties to check if a Dart application is running on server-side or client-side, Dart browsers or other JS browsers.
+/// Since This library uses <code>'dart:html'</code>. This can only be imported by client applications.
 library is_dartium;
 
 import 'dart:html'; // Server VM cannot import 'html' library. Use 'is_client' instead of 'is_dartium'.
