@@ -12,7 +12,7 @@ packages:
   stack_trace:
     description: stack_trace
     source: hosted
-    version: "0.9.1"
+    version: "0.9.2"
   unittest:
     description: unittest
     source: hosted

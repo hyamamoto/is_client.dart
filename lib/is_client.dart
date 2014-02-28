@@ -1,4 +1,4 @@
-/// Properties to check if the application is running on server-side or client-side.
+/// Properties to check if an application is running on server-side or client-side.
 library is_client;
 
 //
