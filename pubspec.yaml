@@ -1,14 +1,14 @@
 name: is_client
+version: 1.2.0+1
 author: Hiroshi Yamamoto <higon@freepress.jp>
-version: 1.2.0
-homepage: http://github.com/hyamamoto/is_client.dart
 description: "A \"isClient\" property to check if your code is running on server-side\
   \ or client-side.\r\nAlso with a \"isDartClient\" property, you can check if the\
-  \ client-side code is running as Dart (on Dartium) or as JavaScript (on Chrome/Firefox/others)."
-documentation: http://htmlpreview.github.com/?http://github.com/hyamamoto/is_client.dart/blob/master/docs/index.html
+  \ client-side code is running as Dart or JavaScript."
+homepage: http://github.com/hyamamoto/is_client.dart
 environment:
   sdk: '>=1.1.0'
+documentation: http://htmlpreview.github.com/?http://github.com/hyamamoto/is_client.dart/blob/master/docs/index.html
 dependencies:
-  browser: '>=0.8.7 <0.10.0'
+  browser: '>=0.8.7 <0.11.0'
 dev_dependencies:
   unittest: '>=0.6.0 <0.11.0'
