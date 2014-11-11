@@ -1,5 +1,5 @@
 name: is_client
-version: 1.2.0+1
+version: 1.6.0
 author: Hiroshi Yamamoto <higon@freepress.jp>
 description: "A \"isClient\" property to check if your code is running on server-side\
   \ or client-side.\r\nAlso with a \"isDartClient\" property, you can check if the\
@@ -11,4 +11,4 @@ documentation: http://htmlpreview.github.com/?http://github.com/hyamamoto/is_cli
 dependencies:
   browser: '>=0.8.7 <0.11.0'
 dev_dependencies:
-  unittest: '>=0.6.0 <0.11.0'
+  unittest: '>=0.6.0 <0.12.0'

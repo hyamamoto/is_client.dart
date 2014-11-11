@@ -1,6 +1,6 @@
 # [is_client.dart](http://github.com/hyamamoto/is_client.dart)
 
-_version 1.2.0+1 (3/1/2014)_ [![Build Status](https://drone.io/github.com/hyamamoto/is_client.dart/status.png)](https://drone.io/github.com/hyamamoto/is_client.dart/latest)
+_version 1.6.0 (11/11/2014)_ [![Build Status](https://drone.io/github.com/hyamamoto/is_client.dart/status.png)](https://drone.io/github.com/hyamamoto/is_client.dart/latest)
 
 <code>is_client</code> is a small Dart package with properties
 (<code>isClient</code>, <code>isDartClient</code>) to check
@@ -21,7 +21,7 @@ provided by <code>dart2js</code>, [the Dart to Javascript compiler](https://www.
 ```dart
 // Exmple: Check if this code is running on client-side or server-side.
 
-import "package:is_client:is_client.dart"
+import "package:is_client/is_client.dart"
 ...
 if ( isClient) {
   print("Hello! I'm on client-side!");
@@ -33,7 +33,7 @@ if ( isClient) {
 ```dart
 // Example: Check if this code is run as JavaScript or not.
 
-import "package:is_client:is_dartium.dart"
+import "package:is_client/is_dartium.dart"
 ...
 if ( isDartClient) {
   print("Hello! I'm running Dart!");
@@ -70,6 +70,10 @@ if (isServer) {
 ```
 
 ### Change Logs
+
+** 1.6.0 (11/11/2014)**  
+* Dependency bump
+* Tested with dart-1.6.0
 
 ** 1.2.0 (2/28/2014)**  
 * Tested with dart-1.2.0
