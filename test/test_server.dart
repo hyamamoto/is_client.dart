@@ -2,7 +2,7 @@ library test_server;
 
 import 'package:unittest/unittest.dart';
 import 'package:unittest/vm_config.dart';
-import '../lib/is_client.dart';
+import 'package:is_client/is_client.dart';
 
 
 main() {

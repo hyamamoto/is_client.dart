@@ -1,8 +1,8 @@
 library test_client_dart;
 
 import 'package:unittest/unittest.dart';
-import '../lib/is_client.dart' as is_client;
-import '../lib/is_dartium.dart' as is_dartium;
+import 'package:is_client/is_client.dart' as is_client;
+import 'package:is_client/is_dartium.dart' as is_dartium;
 import 'package:unittest/html_config.dart';
 
 // Run 'test_client_dart.html' by "Run in Dartium" option.
