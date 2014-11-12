@@ -14,7 +14,7 @@ provided by <code>dart2js</code>, [the Dart to Javascript compiler](https://www.
 
 ### API Document
 
-* http://htmlpreview.github.com/?http://github.com/hyamamoto/is_client.dart/blob/master/docs/index.html
+* http://htmlpreview.github.io/?https://github.com/hyamamoto/is_client.dart/blob/master/docs/index.html
   
 ### Code Example
 
